@@ -1,23 +1,94 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KP BUILDERS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>WELCOME!</h1>
+    <header>
+        <nav class="navbar">
+            <div class="logo">KP BUILDERS</div>
 
-    <h2>Welcome to my website</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <p>Looking For A Place like Home .</p>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Building Homes, Creating Trust</h1>
 
-    <button onclick="sayHello()">Click Me</button>
+            <p>
+                Quality construction with modern design,
+                reliability and attention to detail.
+            </p>
 
-    <script src="script.js"></script>
+            <a href="#contact" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2>About KP Builders</h2>
+
+        <p>
+            We help turn your ideas into beautiful and comfortable spaces.
+            Our goal is to provide reliable construction services with
+            quality workmanship and customer satisfaction.
+        </p>
+    </section>
+
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-container">
+
+            <div class="service-card">
+                <h3>Home Construction</h3>
+                <p>
+                    Complete residential construction from planning
+                    to final finishing.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Renovation</h3>
+                <p>
+                    Modern renovation solutions for homes,
+                    apartments and commercial spaces.
+                </p>
+            </div>
+
+            <div class="service-card">
+                <h3>Interior Work</h3>
+                <p>
+                    Practical and stylish interior solutions
+                    designed around your needs.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Let's Build Something Great</h2>
+
+        <p>Have a project in mind? Get in touch with us.</p>
+
+        <a href="mailto:your@email.com" class="btn">Contact Us</a>
+    </section>
+
+    <footer>
+        <p>© 2026 KP Builders. All rights reserved.</p>
+    </footer>
 
 </body>
 
